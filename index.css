@@ -1,0 +1,164 @@
+body{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#cabeçalho{
+    
+    /* width: 1350px; */
+    height: 475px;
+    background-color: #303030;
+    color: #FFFFFF;
+    font-family: inter;
+    font-style: normal;
+    top: 0px;
+    left: 0px; 
+
+}
+#cabeçalho , #titulo ,#texto1{
+    width: 100%;
+
+}
+#titulo1{
+    padding: 172px 0px 0px 62px;
+    font-size: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+#texto1{
+    font-size: 20px;
+    padding:0px 0px 0px 62px;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+#icones{
+    
+    font-family: 'Inter';
+    margin-top: 0px;
+    /* width: 1280px; */
+    height: 224px;
+    background: #eee6e6;
+    display: grid;
+    grid-auto-flow: column;  
+    columns: auto; 
+    text-align: center;
+    
+    
+}
+#icone.a{
+     width: 100%;
+}
+
+.informativo{
+     margin-top: 66px;
+   
+    
+}
+
+#informação1{
+    margin-right: 136px;
+    font-size: 29px;
+    
+}
+#informação2{
+    margin-right: 162px;
+    font-size:29px;
+}
+#informação3{
+    margin-right: 61px;
+    font-size:29px;
+}
+#texto-imagem{
+   /* width: 1200px; */
+   display: flex;
+   text-align: center;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+#anuncio{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 23px; 
+    margin-top: 168px;
+    margin-left: 40px;
+    text-align: justify; 
+}
+
+#texto2 strong{
+    font-size: 35px;
+    font-family: 'inter';
+}
+
+img{
+    width: 500px;
+    height: 600px;
+    margin-left: 154px;
+    margin-top: 30px;
+    
+}
+#texto-imagem #anuncio img{
+    width: 100%;
+ 
+}
+/* #imagem img{
+    width: 100%;
+   
+  
+} */
+
+#formulario{
+    background: #303030;
+    /* width: 1200px; */
+    height: 424px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 20px;
+    
+
+}
+#titulo2{
+    font-size: 32px;
+    color: #FFFFFF;
+    
+
+}
+#informacoes {
+    padding-top: 10px;
+}
+
+input{
+    width: 485px;
+    height: 72px;
+    margin-top: 19px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 32px;
+}
+
+
+button{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 286px;
+    height: 74px;
+    margin-top: 19px;
+    background: #C07212;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s; 
+    
+
+}
+#formulario{
+    width: 100%;
+}
+
